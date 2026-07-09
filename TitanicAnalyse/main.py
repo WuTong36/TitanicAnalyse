@@ -2,7 +2,7 @@
 """
 Titanic 可调参版本 - 支持命令行参数
 用法示例:
-  python titanic_optimize.py --weight 3.0 --oversample copy --copies 3 --calibrate True --cv 5
+  python main.py --weight 3.0 --oversample copy --copies 3 --calibrate True --cv 5
 参数	        类型	      默认值	说明
 --weight	    float	     2.5       一等舱男性样本权重倍数
 --oversample	str	         copy	   过采样方式:smote / copy / none
@@ -12,7 +12,7 @@ Titanic 可调参版本 - 支持命令行参数
 --test_size	    float	     0.2	   测试集比例
 --seed	        int	         42	       随机种子
 --output_dir	str	        自定义路径	图片保存根目录
-使用默认参数:python titanic_optimize.py
+使用默认参数:python main.py
 """
 
 import os
