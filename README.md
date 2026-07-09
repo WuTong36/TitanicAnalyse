@@ -1,4 +1,3 @@
-'''
 1、GitHub新人的第一个项目，主要是用来熟悉模型训练的，看个乐和就行。
 2、这一版的模型会根据你设置好的地址读取文件并进行模型分析，分析结果为5张图片和一些结果数据汇总。
 3、这5张图片分别是混肴矩阵（Confusion Matrix）;特征相关性热力图（Correlation Heatmap）;泰坦尼克综合探索性分析图（Titanic EDA Combined）;
@@ -16,4 +15,4 @@
 --seed	        int	         42	       随机种子
 --output_dir	  str	        自定义路径	 图片保存根目录
 使用默认参数:python main.py
-'''
+
